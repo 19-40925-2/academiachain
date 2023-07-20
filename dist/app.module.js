@@ -25,12 +25,11 @@ exports.AppModule = AppModule = __decorate([
         imports: [
             student_module_1.StudentModule, professor_module_1.ProfessorModule, university_module_1.UniversityModule, certificate_module_1.CertificateModule, position_module_1.PositionModule, application_module_1.ApplicationModule,
             typeorm_1.TypeOrmModule.forRoot({
-                type: 'postgres',
-                host: 'localhost',
-                port: 5432,
+                host: 'containers-us-west-204.railway.app',
+                port: 7257,
                 username: 'postgres',
-                password: '112233',
-                database: 'academiachainv1.2',
+                password: 'jlzirrhjBSODHXnZJAGq',
+                database: 'railway',
                 autoLoadEntities: true,
                 synchronize: true,
             }),
